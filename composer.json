@@ -1,28 +1,37 @@
 {
-	"name": "cirovargas/google-distance-matrix",
-	"type": "library",
-	"description": "Google distance matrix API - Estimate travel time and distance for multiple origins and destinations.",
-	"keywords": ["google distance matrix", "distance matrix", "google api", "google maps"],
-	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
-	"authors": [
-		{
-			"name": "Ciro Vargas de Souza Marques",
-			"homepage": "https://www.linkedin.com/in/cirovargas/",
-			"email": "cirobsb_br@yahoo.com.br"
-		}
-	],
-	"support": {
-		"email": "cirobsb_br@yahoo.com.br",
-		"issues": "https://github.com/cirovargas/google-distance-matrix/issues"
-	},
-	"version": "v0.0.10",
-	"require": {
-		"php": ">=7.0",
-		"guzzlehttp/guzzle": "^7.8"
-	},
-	"autoload": {
-		"psr-4": {
-			"CiroVargas\\GoogleDistanceMatrix\\": "src/"
-		}
-	}
+  "name": "skelviny/google-distance-matrix",
+  "type": "library",
+  "description": "Google distance matrix API - Estimate travel time and distance for multiple origins and destinations.",
+  "keywords": [
+    "google distance matrix",
+    "distance matrix",
+    "google api",
+    "google maps"
+  ],
+  "license": [
+    "BSD-3-Clause",
+    "GPL-2.0",
+    "GPL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Ciro Vargas de Souza Marques",
+      "homepage": "https://www.linkedin.com/in/cirovargas/",
+      "email": "cirobsb_br@yahoo.com.br"
+    }
+  ],
+  "support": {
+    "email": "cirobsb_br@yahoo.com.br",
+    "issues": "https://github.com/cirovargas/google-distance-matrix/issues"
+  },
+  "version": "v0.0.10",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^7.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "CiroVargas\\GoogleDistanceMatrix\\": "src/"
+    }
+  }
 }
